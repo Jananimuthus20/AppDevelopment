@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.whole{
+ 
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ display: flex;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(115deg, #56d8e4c0 10%, #a001eaa0 90%);
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-block-start: 8rem;
+}
+.whole h3{
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container2{
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    height: 355px;
+    border-radius: 10px;
+  }
+  .container2 .text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #9f01ea, #56a2e4, #9f01ea);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container2 form{
+    padding: 10px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+ 
+  .container3{
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    height: 355px;
+    margin-left: 13%; 
+    border-radius: 10px;
+  }
+  .container3 .text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #9f01ea, #56a4e4, #9f01ea);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container3 form{
+    padding: 15px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+ .inner #sub{
+    border:none;
+    outline:none;
+    width: 10vw;
+    height: 6vh;
+    border-radius:15px;
+    color: #fff;
+    font-weight: 500;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #9f01ea, #56d8e4);
+ }
+  @media screen and (max-width:850px){
+    .inner #sub{
+        margin-top: 10%;
+    }
+    
+  }
+  
